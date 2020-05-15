@@ -1,0 +1,33 @@
+<div class="data-container  ">
+    <div class=" container ">
+        <nav class="navbar navbar-expand-sm ">
+            <a routerLink="/" class="navbar-brand mr-auto  navbarbrand"> MY Profile </a>
+            <ul class="navbar-nav  navbarnav">
+                <li class="nav-item navitem">
+                    <a routerLink="/"class="nav-link navlink"> Home </a>
+                </li>
+                <li class="nav-item navitem">
+                    <a routerLink="/skills"class="nav-link navlink"> Skills </a>
+                </li>
+                <li ngbDropdown class="nav-item navitem  ">
+                    <a ngbDropdownToggle class="nav-link navlink"> Projects <i class="fas fa-chevron-down"></i> </a>
+                    <div ngbDropdownMenu class="dropdownmenu">
+                        <a  routerLink="/angular_pro"class="dropdownitem"> ANgular Projects</a>
+                        <a  routerLink="/react_pro"class="dropdownitem"> React Projects</a>
+                        <a routerLink="/javascript_pro" class="dropdownitem"> JavaScript Projects</a>
+
+                    </div>
+                </li>
+
+                <li class="nav-item navitem">
+                    <a routerLink="/about" class="nav-link navlink"> About </a>
+                </li>
+                <li class="nav-item navitem">
+                    <a routerLink="/contact" class="nav-link navlink"> Contact </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </div>
+</div>
